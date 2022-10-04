@@ -19,8 +19,12 @@ if (koren == num2){
 else{
     Console.WriteLine("Нет, не является ");
 }
-*/
-/*int day = int.Parse(Console.ReadLine());
+*/ 
+
+/*3. Напишите программу, которая будет выдавать
+название дня недели по заданному номеру.
+
+int day = int.Parse(Console.ReadLine());
 if (day==1){
     Console.WriteLine("Понедельник");
 }
@@ -41,17 +45,26 @@ else {
 }
 */
 
-/*int num = int.Parse(Console.ReadLine());
+/*5. Напишите программу, которая на вход принимает
+одно число (N), а на выходе показывает все целые
+числа в промежутке от -N до N.
+
+int num = int.Parse(Console.ReadLine());
 for (int num1=-System.Math.Abs(num); num1<=num; num1++)
 {
     Console.Write(num1.ToString()+" ");
 }
 */
-/*Console.Write("Введите цифру: ");
+/*7. Напишите программу, которая принимает на вход
+трёхзначное число и на выходе показывает последнюю цифру
+этого числа.
+
+Console.Write("Введите цифру: ");
 string str = Console.ReadLine ();
 Console.WriteLine(str[2]);
 */
-/*int num1 = int.Parse(Console.ReadLine());
+/*
+int num1 = int.Parse(Console.ReadLine());
 int num2 = int.Parse(Console.ReadLine());
 if (num1>num2){
     Console.WriteLine($"{num1} = max ");
@@ -61,7 +74,7 @@ else{
 }
 */
 
-int num1 = int.Parse(Console.ReadLine());
+/*int num1 = int.Parse(Console.ReadLine());
 int num2 = int.Parse(Console.ReadLine());
 int num3 = int.Parse(Console.ReadLine());
 if (num1>num2){
@@ -80,3 +93,14 @@ else{
             Console.WriteLine($"{num3} = max ");
         }
 }
+*/
+
+int num = int.Parse(Console.ReadLine());
+double ost = num%2;
+if (ost = 0){
+    Console.WriteLine(num);
+}
+else {
+    Console.WriteLine("Нечетное");
+}
+
