@@ -32,5 +32,56 @@ string otvet = chetvertV2(chet);
 Console.WriteLine(otvet);
 */
 
-//Задача 21: Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+//Задача 21: Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве. Мой вариант
+/*
+int x = int.Parse(Console.ReadLine());
+int y = int.Parse(Console.ReadLine());
+int x1 = int.Parse(Console.ReadLine());
+int y1 = int.Parse(Console.ReadLine());
+int sum1 = 0;
+int diff1 = 0;
+int diff2 =0;
 
+diff1 = (x-x1)*(x-x1);
+diff2 = (y-y1)*(y-y1);
+sum1 = diff1+diff2;
+double i = Math.Sqrt(sum1);
+
+    Console.WriteLine(i);
+*/
+/*
+double dist (int x1, int y1,int x2, int y2){
+    double res = Math.Sqrt(Math.Pow(x2-x1),2)+Math.Pow(y2-y1),2)); //Math.Pow выводит степень//Math.Sqrt выделяет корень
+    return res;
+}
+int x1 = int.Parse(Console.ReadLine());
+int y1 = int.Parse(Console.ReadLine());
+int x2 = int.Parse(Console.ReadLine());
+int y2 = int.Parse(Console.ReadLine());
+double otvet = dist (x1,y1,x2,y2);
+Console.WriteLine(otvet);
+*/
+
+//ДЗ.Задача 22: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу квадратов чисел от 1 до N.
+
+/*double kvadr (int z){
+     double res = Math.Pow(z,2);
+    return res;
+}
+ 
+double n = int.Parse(Console.ReadLine());
+int x=1;
+while (x<=n) {
+    double otvet = kvadr (x);
+    x++;
+Console.WriteLine(otvet);
+}
+*/
+
+int[] num = new int[5];
+
+if (
+    //while (i<num.Length){
+    Console.Write($"Введите {i} число массива: ");  
+    num[i] = int.Parse(Console.ReadLine());
+    i++;
